@@ -32,6 +32,6 @@ References:
 - [Builder.io](https://www.builder.io/)
 - [Qwik Release Blog](https://www.builder.io/blog/qwik-v1)
 - [Think Qwik](https://qwik.builder.io/docs/concepts/think-qwik/)
-- [Getting Started with Qwik](https://qwik.builder.io/docs/getting-started/). Don't forget to install node modules via ``npm i`` before starting the app in the right directory with ``npm start`` 
+- [Getting Started with Qwik](https://qwik.builder.io/docs/getting-started/). Don't forget to install node modules via ``npm i`` before starting the app in the app directory with ``npm start`` 
 
 
