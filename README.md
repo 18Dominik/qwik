@@ -42,5 +42,6 @@ References:
 - [qwik introduction](https://learn.hirez.io/products/a-qwik-introduction)
 - [Dev.to: Resumability, WTF](https://dev.to/this-is-learning/resumability-wtf-2gcm)
 - [Dev.to: Resumability with Qwik](https://dev.to/this-is-learning/resumable-javascript-with-qwik-2i29)
+- [bilder.io: Progressive Hydration](https://www.builder.io/blog/why-progressive-hydration-is-harder-than-you-think)
 - [Qwik: USP](https://www.builder.io/blog/our-current-frameworks-are-on-we-need-o1)
 - [heise: Qwik](https://www.heise.de/news/Full-Stack-Framework-Qwik-1-0-bringt-neuen-Ansatz-fuer-schnellere-Interaktivitaet-8985672.html)
