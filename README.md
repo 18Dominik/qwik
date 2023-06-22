@@ -37,5 +37,7 @@ References:
 - [Think Qwik](https://qwik.builder.io/docs/concepts/think-qwik/)
 - [Getting Started with Qwik](https://qwik.builder.io/docs/getting-started/). Don't forget to install node modules via ``npm i`` before starting the app in the app directory with ``npm start``
 - [Qwik City Routing and file formats](https://qwik.builder.io/docs/routing/)
-
+- [Great Article on Hydration vs. Resumability](https://entwickler.de/webentwicklung/resumability-hydration-javascript)
+- [qwik courses](https://qwik.builder.io/ecosystem/#courses)
+- [qwik introduction](https://learn.hirez.io/products/a-qwik-introduction)
 
