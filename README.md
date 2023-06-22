@@ -6,8 +6,8 @@
     - Open Source
     - USP:
         - Problem: A **web application gets slower with increasing complexity** because current frameworks send too much JavaScript to the client
-            - for the case of single web page applications **(SPA)** with React, Cue, Angular, Svelte, SolidJS, ... where rendering is client aka browser side by executing JavaScript code)
-            - for the case of server-sided rendering with full stack frameworks like Next.js, Nuxt, SvelteKit where - though the html is rendered server side, the JavaScript to make the website daynamic is executed client side
+            - for the case of single web page applications **(SPA)** with React, Cue, Angular, Svelte, SolidJS, ... where rendering (interractive & non-interactive elemnts) is client aka browser side by executing JavaScript code)
+            - for the case of server-sided rendering with full stack frameworks like Next.js, Nuxt, SvelteKit where - though the html is rendered server side, the JavaScript to make the website dyynamic, aka to get the interactive elements do sth., is executed client side
         - Solution approach. JavaScript streaming (instead of JavaScript downloading as it is in the case of with hydration):
             - **Progressive Hydration**  by automatically splitting up JavaScript in chunks by **closure chunking**
             - Only the - constant - JavaScript code needed for a specific user interaction is sent to the client, regardless of application complexity. This results in low start-up times aka high start-up performance.
