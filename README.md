@@ -31,17 +31,34 @@
   ![image](https://github.com/18Dominik/qwik/assets/35842490/b03f3def-811c-4963-9d6f-b8f6e84ebf2e)
 
 
-References:
+#References:
+## Builder.io
+### Setup
 - [Builder.io](https://www.builder.io/)
-- [Qwik Release Blog](https://www.builder.io/blog/qwik-v1)
-- [Think Qwik](https://qwik.builder.io/docs/concepts/think-qwik/)
 - [Getting Started with Qwik](https://qwik.builder.io/docs/getting-started/). Don't forget to install node modules via ``npm i`` before starting the app in the app directory with ``npm start``
+- [Qwik Release Blog](https://www.builder.io/blog/qwik-v1)
+### Technical Details
+- [Think Qwik](https://qwik.builder.io/docs/concepts/think-qwik/)
+- [Qwik: USP](https://www.builder.io/blog/our-current-frameworks-are-on-we-need-o1)
 - [Qwik City Routing and file formats](https://qwik.builder.io/docs/routing/)
-- [Great Article on Hydration vs. Resumability](https://entwickler.de/webentwicklung/resumability-hydration-javascript)
+- [builder.io: Progressive Hydration](https://www.builder.io/blog/why-progressive-hydration-is-harder-than-you-think)
+## Courses
 - [qwik courses](https://qwik.builder.io/ecosystem/#courses)
 - [qwik introduction](https://learn.hirez.io/products/a-qwik-introduction)
+## Dev.to
 - [Dev.to: Resumability, WTF](https://dev.to/this-is-learning/resumability-wtf-2gcm)
 - [Dev.to: Resumability with Qwik](https://dev.to/this-is-learning/resumable-javascript-with-qwik-2i29)
-- [bilder.io: Progressive Hydration](https://www.builder.io/blog/why-progressive-hydration-is-harder-than-you-think)
-- [Qwik: USP](https://www.builder.io/blog/our-current-frameworks-are-on-we-need-o1)
+## German Resources
+- [Great Article on Hydration vs. Resumability](https://entwickler.de/webentwicklung/resumability-hydration-javascript)
 - [heise: Qwik](https://www.heise.de/news/Full-Stack-Framework-Qwik-1-0-bringt-neuen-Ansatz-fuer-schnellere-Interaktivitaet-8985672.html)
+
+
+
+
+
+
+
+
+
+
+
