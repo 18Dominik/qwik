@@ -1,13 +1,13 @@
 # Qwik
 - Full-Stack JavaScript Web Framework
     - Core framework (Qwik) and meta framework (Qwik City).
-    - Inspired by React, Cue, Angular, Svelte, SolidJS and their meta frameworks (e.g. for handling **hydration** (hydration = making static HTML dynamic / "alive" / "hydrated" by loading JavaScript) → performance optimization)- e.g. Next.js, Nuxt, SvelteKit **for full-stack development and Server-Side-Rendering (SSR)**
+    - Inspired by React, Cue, Angular, Svelte, SolidJS and their meta frameworks (e.g. for handling **hydration** (hydration = making static HTML dynamic / "alive" / "hydrated" by (re-)loading and (re-)playing JavaScript) → performance optimization)- e.g. Next.js, Nuxt, SvelteKit **for full-stack development and Server-Side-Rendering (SSR)**
     Developed by https://www.builder.io/
     - Open Source
     - USP:
         - Problem: A **web application gets slower with increasing complexity** because current frameworks send too much JavaScript to the client (Especially for single web page applications **(SPA)** with Angular, React, ... where rendering is client aka browser side by executing JavaScript code).
-        - Solution approach. JavaScript streaming:
-            - **Progressive Hydration** 
+        - Solution approach. JavaScript streaming (instead of JavaScript downloading as it is with hydration):
+            - **Progressive Hydration**  by automatically splitting up JavaScript in chunks by **closure chunking**
             - Only the - constant - JavaScript code needed for a specific user interaction is sent to the client, regardless of application complexity. This results in low start-up times aka high start-up performance.
         - Promise: Qwik apps can scale for as much/complex JavaScript code as desired
         - Implementation
@@ -23,8 +23,9 @@
             - Full Stack Web Framework: One single programming language (JavaScript) in backend and frontend
             - Interoperability/no framework lock-in due to framework-specific wrappers, e.g. [Qwik-React](https://www.builder.io/blog/qwik-v1)
 - Technical Intricacies:
-        - Resumability is enabled by server-side HTML serialization of JavaScript, e.g. event-listeners. The client only loads the HTML string.
+        - Resumability is enabled by server-side HTML serialization of JavaScript, e.g. event-listeners. The client only loads the HTML string
         - Lazy execution is enabled by HTML serialized event handling: JavaScript code is loaded only upon execution via UI interaction
+        - The "smart" HTML includes Component Boundaries, Event Listeners, and the page's app state
 
   ![image](https://github.com/18Dominik/qwik/assets/35842490/fe601e58-7c0a-4da4-9805-165742f45d8f)
   ![image](https://github.com/18Dominik/qwik/assets/35842490/b03f3def-811c-4963-9d6f-b8f6e84ebf2e)
