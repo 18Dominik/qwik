@@ -17,7 +17,7 @@
             - For example: the page requests the code of a click handler only when the respective button is clicked.
         - Developer Experience:
             - Uses JSX (see React syntax).
-            - Interoperability/no framework lock-in due to framework-specific wrappers, e.g. Qwik-React.
+            - Interoperability/no framework lock-in due to framework-specific wrappers, e.g. [This is an external link to genome.gov](https://www.genome.gov/)
     - Technical Intricacies:
         - Resumability is enabled by server-side HTML serialization of JavaScript. The client only loads the HTML string.
         - Lazy execution is enabled by HTML serialized event handling: JavaScript code is loaded only upon execution via UI interaction
