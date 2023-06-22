@@ -13,11 +13,12 @@
             - Only the - constant - JavaScript code needed for a specific user interaction is sent to the client, regardless of application complexity. This results in low start-up times aka high start-up performance.
         - Promise: Qwik apps can scale for as much/complex JavaScript code as desired
         - Implementation
-            New rendering paradigm to solve the hydration problem: Lazy Execution/Resumeability/Deferred JavaScript for constant start-up times): Pausing execution on server and resuming execution in client - without having to repeat and re-download application logic, no DOM hydration/bootstrap component tree on every single refresh.
+            New rendering paradigm to solve the hydration problem: Lazy Execution/Resumeability/Deferred JavaScript for constant start-up times): 
+            Pausing execution on server and resuming execution in client - without having to repeat and re-download application logic, no DOM hydration/bootstrap component tree on every single refresh.
             - For example: the page requests the code of a click handler only when the respective button is clicked.
         - Developer Experience:
             - Uses JSX (see React syntax).
-            - Interoperability/no framework lock-in due to framework-specific wrappers, e.g. [This is an external link to genome.gov](https://www.genome.gov/)
+            - Interoperability/no framework lock-in due to framework-specific wrappers, e.g. [I'm an inline-style link](https://www.google.com)
     - Technical Intricacies:
         - Resumability is enabled by server-side HTML serialization of JavaScript. The client only loads the HTML string.
         - Lazy execution is enabled by HTML serialized event handling: JavaScript code is loaded only upon execution via UI interaction
