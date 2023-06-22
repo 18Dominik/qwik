@@ -42,4 +42,5 @@ References:
 - [qwik introduction](https://learn.hirez.io/products/a-qwik-introduction)
 - [Dev.to: Resumability, WTF](https://dev.to/this-is-learning/resumability-wtf-2gcm)
 - [Dev.to: Resumability with Qwik](https://dev.to/this-is-learning/resumable-javascript-with-qwik-2i29)
+- [Qwik: USP](https://www.builder.io/blog/our-current-frameworks-are-on-we-need-o1)
 
