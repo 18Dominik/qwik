@@ -40,4 +40,5 @@ References:
 - [Great Article on Hydration vs. Resumability](https://entwickler.de/webentwicklung/resumability-hydration-javascript)
 - [qwik courses](https://qwik.builder.io/ecosystem/#courses)
 - [qwik introduction](https://learn.hirez.io/products/a-qwik-introduction)
+- [Dev.to: Resumability with Qwik](https://dev.to/this-is-learning/resumable-javascript-with-qwik-2i29)
 
