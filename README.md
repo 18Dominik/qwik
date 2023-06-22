@@ -1,7 +1,7 @@
 # Qwik:
 - Full-Stack JavaScript Web Framework
     - Core framework (Qwik) and meta framework (Qwik City).
-    - Inspired by React, Cue, Angular, Svelte, SolidJS and their meta frameworks (e.g. for handling hydration (hydration = making static HTML dynamic / "alive" / "fluid" with JavaScript) → performance optimization)- e.g. Next.js, Nuxt, SvelteKit for full-stack development and Server-Side-Rendering (SSR)
+    - Inspired by React, Cue, Angular, Svelte, SolidJS and their meta frameworks (e.g. for handling hydration (hydration = making static HTML dynamic / "alive" / "hydrated" by loading JavaScript) → performance optimization)- e.g. Next.js, Nuxt, SvelteKit for full-stack development and Server-Side-Rendering (SSR)
     Developed by https://www.builder.io/
     - Open Source
     - Qwik 1.0 Release Blog Article
