@@ -22,10 +22,9 @@
         - Resumability is enabled by server-side HTML serialization of JavaScript. The client only loads the HTML string.
         - Lazy execution is enabled by HTML serialized event handling: JavaScript code is loaded only upon execution via UI interaction
 
-        ![image](https://github.com/18Dominik/qwik/assets/35842490/fe601e58-7c0a-4da4-9805-165742f45d8f)
+  ![image](https://github.com/18Dominik/qwik/assets/35842490/fe601e58-7c0a-4da4-9805-165742f45d8f)
 
 
 
 References:
 - https://www.builder.io/blog/qwik-v1
-- 
