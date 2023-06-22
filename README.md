@@ -8,7 +8,7 @@
     - USP:
         - Problem: A web application gets slower with increasing complexity because current frameworks send too much JavaScript to the client (Especially for single web page applications (SPA) with Angular, React, ... where rendering is client aka browser side by executing JavaScript code).
         - Solution approach. JavaScript streaming:
-            - Progressive/Progressive Hydration 
+            - Progressive Hydration 
             - Only the - constant - JavaScript code needed for a specific user interaction is sent to the client, regardless of application complexity. This results in low start-up times aka high start-up performance.
         - Promise: Qwik apps can scale for as much/complex JavaScript code as desired
         - Implementation
