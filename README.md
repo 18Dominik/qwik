@@ -31,7 +31,7 @@
   ![image](https://github.com/18Dominik/qwik/assets/35842490/b03f3def-811c-4963-9d6f-b8f6e84ebf2e)
 
 
-# References:
+# References
 ## Builder.io
 ### Setup
 - [Builder.io](https://www.builder.io/)
