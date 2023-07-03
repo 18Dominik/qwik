@@ -19,16 +19,17 @@
               - Resumeability: Pausing execution on server and resuming execution in client - without having to repeat and re-download application logic, no DOM hydration/bootstrap component tree on every single refresh. **Amount of code to execute is proportional to actual user interaction rather than all possible        interactions on the page**
             - For example:
                 - the page requests the code of a click handler only when the respective button is clicked.
-                - A complex with many components includes a counter that displays an integer. The component of the button and displayed integer is resumable, so not the whole DOM/component tree needs to be re-rendered by clicking the counter.
+                - A complex application with many components includes a counter that displays an integer. The component of the button and displayed integer is resumable, so not the whole DOM/component tree needs to be re-rendered by clicking the counter.
         - Developer Experience:
             - Uses JSX (see React syntax).
             - Full Stack Web Framework: One single programming language (JavaScript) in backend and frontend
             - Interoperability/no framework lock-in due to framework-specific wrappers, e.g. [Qwik-React](https://www.builder.io/blog/qwik-v1)
 - Technical Intricacies:
-        - Resumability is enabled by server-side HTML serialization of JavaScript, e.g. event-listeners. The client only loads the HTML string
-        - Lazy execution is enabled by HTML serialized event handling: JavaScript code is loaded only upon execution via UI interaction
-        - The "smart" HTML includes Component Boundaries, Event Listeners, and the page's app state
-
+  - Resumability is enabled by server-side HTML serialization of JavaScript, e.g. event-listeners. The client only loads the HTML string
+  -  Lazy execution is enabled by HTML serialized event handling: JavaScript code is loaded only upon execution via UI interaction
+  -  The "smart" HTML includes Component Boundaries, Event Listeners, and the page's app state
+ 
+    
   ![image](https://github.com/18Dominik/qwik/assets/35842490/fe601e58-7c0a-4da4-9805-165742f45d8f)
   ![image](https://github.com/18Dominik/qwik/assets/35842490/b03f3def-811c-4963-9d6f-b8f6e84ebf2e)
 
